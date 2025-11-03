@@ -5,7 +5,9 @@ header {
 }
 
 body {
+    box-sizing: border-box;
     background-color: rgba(27, 68, 91, 1);
+    margin-left: 5vw;
 }
 
 h1 {
@@ -20,6 +22,7 @@ h2 {
     color: antiquewhite;
     font-size: large;
     margin: 0;
+    padding-bottom: 0;
 }
 
 .formul {
@@ -43,7 +46,7 @@ h2 {
 .hero-layout .paisaje {
   display: flex;
   width: 50vw;
-  height: 90vh;
+  height: 100vh;
   margin-top: 0;
 }
 
@@ -57,7 +60,7 @@ h2 {
 .mapa iframe {
   margin-left: 0%;
   width: 30vw;
-  height: 60vh;
+  height: 57vh;
   flex-direction: column;
   align-items: start;
 }
@@ -71,10 +74,9 @@ h2 {
 }
 
 .holder-size {
-
+    font-size: 1.2rem;
+    height: 3.5rem;
 }
-
-.
 
 .contacto .btn-submit {
     width: 30vw;
@@ -82,5 +84,5 @@ h2 {
     color: antiquewhite;
     font-size: 1.5rem;
     font-weight: bolder;
-    margin: 0;
+    height:3rem;
 }
