@@ -1,0 +1,72 @@
+
+.header-color{
+    background-color: #1B445B;
+    padding: 2.5em;
+    margin-left: 0rem;
+    margin: 0rem;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.presentacion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+.miembros{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    font-size: 2rem;
+}
+.miembro1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: left;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;   
+}
+.miembro2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+}
+.miembro3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+} 
+ .final{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align-last: left;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    align-items: center;
+    gap:  2rem;
+}
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 40%;
+}
+.img-responsive {
+    width: 100%;
+}
