@@ -8,10 +8,10 @@
 }
 
 .seccion2 {
-    background-color: #D9D9D9;
+    background-color:  #ADBAC0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 5%;
     margin-bottom: 2%;
 }
@@ -48,7 +48,7 @@
 }
 
 .tarjeta {
-    background-color: rgb(87, 114, 116);
+    background-color: #1B445B;
     border-radius: 1rem;
     width: 30%;
     margin: 1%;
@@ -68,6 +68,8 @@
     text-decoration: none;
     font-size: 1.5rem;
     padding:0.5rem 4rem;
+    display: inline-block;
+    margin-top: 1.5rem;
 }
 
 .foto {
@@ -79,7 +81,7 @@
 .separador{
     background-color: #607a6b;
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     margin-bottom: 2%;  
     align-items: center;
 }
@@ -102,6 +104,15 @@ p {
     color: #607a6b;
 }
 
+article { 
+    font-size: 1.5rem;
+    color: #607a6b;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
 h2 { 
     font-size: 2rem;
     color: coral;
@@ -118,6 +129,11 @@ li {
 .seccion4 h2 {color: rgb(80, 37, 17);}
 
 .seccion4 p {color: rgb(20, 55, 68);}
+
+.actividades li{
+    font-size: 1.5rem;
+    color: #607a6b;
+}
 
 
 
@@ -143,7 +159,7 @@ div.tarjeta:hover {
 
 }
 
-div.separador:hover {
+section.separador:hover {
   animation-name: desenfoque;
   animation-duration: 1s;
 
@@ -152,7 +168,7 @@ div.separador:hover {
 
 /* Mediaqueries */
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1024px) {
     .contenedor {
         flex-wrap: wrap;
     }
@@ -160,8 +176,16 @@ div.separador:hover {
         width: 40%;
     }
     
-    p {font-size: 1rem;}
+    p {font-size: 1.5rem;}
 
+    article{
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
     h2{
         font-size: 1.5rem;
     }
@@ -169,7 +193,7 @@ div.separador:hover {
     li {font-size: 1rem;}
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 700px) {
     .seccion1 {
         padding: 2%;
     }
@@ -200,8 +224,19 @@ div.separador:hover {
     p {
         font-size: 1rem;
     }
+    article{
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 
     h2{
         font-size: 1.5rem;
     }
+    .actividades li{
+        font-size: 1rem;
+    }
+    a.boton {font-size: 1rem;}
 }
