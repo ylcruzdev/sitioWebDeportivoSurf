@@ -18,6 +18,8 @@
   --color-3: #ADBAC0;
   --color-4: #859BA6;
   --color-5: #1B445B;
+  --color-6: #469C6A;
+  --color-7: #D8732C;
   --font-family: "Poppins", sans-serif;
 }
 
@@ -75,6 +77,60 @@ nav {
 }
 /* end nav style*/
 
+/* Footer styles*/
+
+/*.ico-fivedevs {
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../img/logos/logo\ FiveDevs\ negro.svg");
+    background-size: 2rem, cover;
+    background-repeat: no-repeat;
+}*/
+
+.logo-foot {
+    width: 6rem;
+}
+
+.d-rs i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.d-copyright {
+    background-color: var(--color-6);
+    border-top: 0.25rem solid var(--color-7);
+    padding: 0.5rem;
+}
+
+.d-foot {
+    padding: 1rem;
+}
+
+.nav-item-foot {
+    display: flex;
+    margin: 0.05rem;
+    color: var(--white);
+}
+
+.title-nav-foot {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight:600;
+}
+
+.d-contactanos {
+    border-left: 0.15rem solid var(--white);
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.tagline-foot {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* end footer styles*/
+
 
 /* General style and class */
 .flex {
@@ -130,15 +186,68 @@ nav {
     width: 90%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
 .maxw-90 {
     max-width: 90%;
 }
+
+.white {
+    color: var(--white) !important;
+}
+
+.black {
+    color: var(--black) !important;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.m-05 {
+    margin: 0.5rem;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
 
 /* Media query to tablet device*/
 @media screen and (max-width: 1024px) {
 
     .w100-t {
         width: 100%;
+    }
+
+    .w50-t {
+        width: 50%;
     }
 
     /* responsive navbar */
@@ -180,13 +289,37 @@ nav {
         width: 70%;
         margin-left: 1rem;   
     }
-    
-    
+
+    /* responsive footer*/
+    .d-servicios, .d-mapa-sitio {
+        display: none;
+    }    
 
 }
 
 /* Media query to mobile device*/
 @media screen and (max-width: 700px) {
+
+    .w100-m {
+        width: 100%;
+    }
+
+    .f-col-m {
+        flex-direction: column;
+
+    }
+
+    .mr-0-m {
+        margin-right: 0;
+    }
+
+    .x-center-m {
+        justify-content: center;
+    }
+
+    .y-center-m {
+        align-items: center;
+    }
 
     
 }
