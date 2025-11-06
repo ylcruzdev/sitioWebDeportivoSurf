@@ -8,57 +8,35 @@ El proyecto consiste en el diseño de un sitio web para un club deportivo de la 
 Guía sobre cómo utilizar el proyecto, con ejemplos si es posible.
 
 4. Estructura del proyecto: 
- components
+## 📁 Estructura del proyecto
+
+```plaintext
+sitioWebDeportivoSurf
+├── components
+│   ├── footer.html
 │   └── navbar.html
 ├── css
 │   ├── contacto.css
-│   └── index.css
+│   ├── galeria.css
+│   ├── home.css
+│   ├── index.css
+│   ├── nosotros.css
+│   └── servicios.css
 ├── img
-│   ├── cuatro fondo claro.png
-│   ├── cuatro fondo oscuro.png
-│   ├── dfasfas.png
-│   ├── dos claro.png
-│   ├── dos fondo ocuro.png
 │   ├── galeria
-│   │   ├── hombre-vestido-con-ropa-de-surfista-caminando-sobre-la-arena-desde-atras.jpg
-│   │   ├── joven-navega-por-las-olas-del-mar.jpg
-│   │   ├── jpeg
-│   │   ├── jpeg(1)
-│   │   ├── la-gente-surfeando-en-brasil(1).jpg
-│   │   ├── la-gente-surfeando-en-brasil.jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa(1).jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa.jpg
-│   │   ├── mujer-de-tiro-completo-en-manos.jpg
-│   │   ├── mujer-nadando-en-agua.jpg
-│   │   └── pareja-anonima-detras-de-la-tabla-de-surf-tomados-de-la-mano.jpg
-│   ├── logo 5_dev claro.png
+│   ├── home
 │   ├── logos
-│   │   ├── cuatro fondo claro.png
-│   │   ├── cuatro fondo oscuro.png
-│   │   ├── dos claro.png
-│   │   ├── dos fondo ocuro.png
-│   │   ├── logo fondo claro.png
-│   │   ├── logo fondo oscuro.png
-│   │   ├── logo.svg
-│   │   ├── ola fondo  claro.png
-│   │   ├── ola fondo oscuro.png
-│   │   ├── tres fondo claro.png
-│   │   ├── tres fondo oscuro.png
-│   │   ├── una fondo claro.png
-│   │   └── una fondo oscuro.png
-│   ├── logo.svg
-│   ├── ola fondo  claro.png
-│   ├── ola fondo oscuro.png
-│   ├── surf_bakio.JPEG
-│   ├── tres fondo claro.png
-│   ├── tres fondo oscuro.png
-│   ├── una fondo claro.png
-│   └── una fondo oscuro.png
+│   └── sobreNosotros
 ├── index.html
 ├── pages
 │   ├── contacto.html
-│   └── example.html
+│   ├── example.html
+│   ├── galeria.html
+│   ├── home.html
+│   ├── nosotros.html
+│   └── servicios.html
 └── readme.md
+
 
 5. Estado del proyecto: 
 El proyecto está en desarrollo.
