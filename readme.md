@@ -25,6 +25,7 @@ Guía sobre cómo utilizar el proyecto, con ejemplos si es posible.
 
 ## 🗂️ Estructura del proyecto
 
+```plaintext
 .
 ├── components
 │   └── navbar.html
@@ -77,9 +78,6 @@ Guía sobre cómo utilizar el proyecto, con ejemplos si es posible.
 │   ├── contacto.html
 │   └── example.html
 └── readme.md
-
-
-Código
 
 ---
 
