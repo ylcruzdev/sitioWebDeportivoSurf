@@ -41,19 +41,22 @@
     width: 100%;
 }
 .texto1 {    
-    margin-top: 2rem;
-   
+    margin-top: 1rem;
+    text-align: center; 
+    width: 80%; 
+    max-width: 800px; /* Ancho máximo para pantallas grandes */
 }
 
 .texto1 h1 {    
     text-shadow: black 2px 2px 4px;
     color: white;
-    font-size: 3rem;
-   
+    font-size: 2rem;
+    
+
 } .main-content {
     position: relative;
-    /* Ajusta este color si tienes un color de fondo para el cuerpo */
     background-image: url("../img/home/6.png"); 
+    background-size: cover;
     padding: 5rem 0;
     overflow: hidden; /* Para contener las formas angulares */
 }
@@ -61,8 +64,9 @@
 .content-wrapper {
     display: grid;
     /* Define la estructura de las dos columnas principales */
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    width: 90%;
     margin: 0 auto;
     position: relative;
     z-index: 10; 
@@ -73,20 +77,51 @@
     position: relative;
     padding-top: 5rem;
     padding-right: 3rem;
+    margin: 8rem 0;
 }
 
 .title-olatu-lab {
     font-size: 4.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 2m;
     color: var(--primary); /* Asume que tienes una variable --dark-text */
 }
 
 .title-olatu-lab .lab {
-    color: var(--primary); /* Asume que tienes una variable --primary */
+    color: var(--primary); 
+
 }
 
-/*Columna Izquierda (Laboratorio de Olas)*/
+.descripcion-texto1 {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    margin: 2rem 0 0 0;
+
+}
+
+.descripcion-texto1 p{
+    color: black;
+
+} .resultado-del-subtítulo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+} .resultado-del-subtítulo h4 {
+
+    color: var(--primary);
+
+} .descripcion-texto {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    margin: 2rem 0 0 0rem;
+
+} .descripcion-texto h{
+    color: black;
+
+}
+
+
 .columna-izquierda {
     position: relative;
     padding-top: 4rem;
@@ -99,8 +134,8 @@
     color: var(--dark-text); 
     margin-bottom: 1.5rem;
     padding: 1.5rem;
-    background-color: #eb1111ec; /* Fondo de la caja de texto */
-    color: white;
+    background-color: #161313ec; /* Fondo de la caja de texto */
+    color: rgb(255, 255, 255);
 }
 
 .cta-button {
@@ -114,7 +149,6 @@
     font-weight: bold;
     font-size: 1.1rem;
     transition: background-color 0.3s, color 0.3s;
-    /* Replicando la forma ovalada/fondo curvo */
     border-radius: 50px / 50%;
     
 }
@@ -122,23 +156,10 @@
 .cta-button:hover {
     
     background-color: var(--primary);
-    color: rgb(255, 255, 255);
+    color: rgb(246, 241, 241);
 }
 
-.group-image-container {
-    position: relative;
-    margin-top: 3rem;
-}
 
-.group-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-/* --- Implementación de Formas Angulares (Usando CSS clip-path o skew/transform) --- */
 
 /* Forma angular superior izquierda (gris oscuro detrás del título) */
 .shape-left-top {
@@ -152,7 +173,7 @@
     /* Crea la forma de flecha/triángulo que se ve en el prototipo */
     clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%); 
     transform: translate(-10%, -5%) rotate(-1deg);
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 /* Forma angular superior derecha (gris claro detrás del texto principal) */
@@ -162,11 +183,11 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: #888383;
+    background-color: #777474;
     z-index: 1;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
     transform: translate(5%, -5%) rotate(1deg);
-    opacity: 0.1;
+    opacity: 0.2;
 }
 
 /* Forma angular inferior izquierda (detrás del botón/imagen) */
@@ -195,15 +216,28 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%);
     transform: translate(15%, 15%) rotate(2deg);
     opacity: 0.2;
+} .group-image-container {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.group-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 
-/* --- Estilos de Carrusel Infinito (Animación CSS) --- */
+
+/* --- Estilos de Carrusel Infinito  --- */
 
 .carrusel-section {
     padding: 4rem 0;
-    overflow: hidden; /* **Clave para ocultar el exceso de imágenes** */
+    overflow: hidden; 
     background-color: #fff;
+
 }
 
 .slider {
@@ -224,7 +258,8 @@
 }
 
 .slide-track:hover {
-    animation-play-state: infinite; 
+    animation-play-state: 11s infinite; 
+     
 }
 
 .slide {
@@ -242,7 +277,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* La animación clave para el desplazamiento infinito */
+/*  desplazamiento infinito */
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -251,4 +286,120 @@
         /* Desplaza por la longitud de la primera copia de las imágenes */
         transform: translateX(calc(-250px * 5)); 
     }
-} 
+}
+
+/* (hasta 992px) */
+@media (max-width: 992px) {
+    /* Layout principal */
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        padding: 0 5%; /* Padding lateral */
+    }
+
+    .col-right, .col-left {
+        padding: 2rem 0;
+    }
+
+    /* Ajuste de tipografía */
+    .title-olatu-lab {
+        font-size: 3rem;
+    }
+    .subtitle-olatu {
+        font-size: 1.5rem;
+    }
+
+    /* Ocultar formas angulares complejas para simplificar el layout móvil/tablet */
+    .shape-left-top, .shape-right-top, .shape-left-bottom, .shape-right-bottom {
+        display: none;
+    }
+
+    /* Navegación (Asegurar que el menú se colapse correctamente) */
+    .d-menu {
+        display: none; /* Ocultar por defecto */
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Ajusta a la altura de tu navbar */
+        left: 0;
+        background-color: var(--primary); /* Color del menú colapsado */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #btnToggleMenu:checked ~ #d-menu {
+        display: flex; /* Mostrar cuando el checkbox esté marcado */
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Móviles pequeños y dispositivos hasta 576px */
+@media (max-width: 576px) {
+    /* Carrusel - Asegurar que las imágenes son visibles */
+    .slider {
+        height: 150px; 
+    }
+    .slide, .slide img {
+        height: 150px;
+        width: 150px;
+    }
+    .slide-track {
+        /* Recalcular el ancho y la animación para el nuevo tamaño de imagen */
+        width: calc(150px * 10); 
+        animation: scroll-mobile 30s linear infinite; /* Animación más rápida */
+    }
+    
+    @keyframes scroll-mobile {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            /* Desplaza por la longitud de la primera copia de las imágenes (5 slides * 150px) */
+            transform: translateX(calc(-150px * 5)); 
+        }
+    }
+
+
+    /* Layout general */
+    .title-olatu-lab {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .subtitle-olatu {
+        text-align: center;
+    }
+
+    /* Centrar botón CTA */
+    .cta-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+        text-align: center;
+    }
+
+    .footer-logo-quote, .footer-links, .footer-contact, .footer-sitemap {
+        margin-bottom: 1.5rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+        display: flex;
+    }
+}
