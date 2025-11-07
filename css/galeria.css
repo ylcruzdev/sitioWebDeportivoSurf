@@ -88,7 +88,7 @@
   background-color: var(--color-3);
   border-radius: var(--radius);
   margin: 1rem 0 1rem 0;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   width: 70%;
@@ -113,24 +113,107 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* --- LIGHTBOX --- */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 2rem;
+  left: 0;
+  top: 5rem;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(27, 68, 91, 0.90);
+  text-align: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  margin-top: 0rem;
+  border-radius: var(--radius);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.lightbox:target {
+  display: block;
+}
+
+.cerrar {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.cerrar i {
+  color: white;
+  transition: color 0.3s;
+}
+
+.cerrar i:hover {
+  color: var(--color-3);
+}
+
 /* Media query to tablet device*/
 @media screen and (max-width: 1024px) {
+
+  /* responsive header */
     
     .hero {
-        height: 25vh;
+      height: 25vh;
     }
 
     .polaroid {
-        width: 125px;
-        height: 125px;
-        padding: 0.3rem 0.3rem 1.5rem 0.3rem;
+      width: 125px;
+      height: 125px;
+      padding: 0.3rem 0.3rem 1.5rem 0.3rem;
     }
 
     .hero-title {
-        font-size: 2rem;
+      font-size: 2rem;
     }
 
-      
+    /*responsive galeria*/
+    .galeria {
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+
+    .galeria-titulo {
+      font-size: 2rem;
+      margin: 1.5rem 0 0.5rem 0;
+    }
+
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+    
+    .galeria-contenedor {      
+      margin: 0.5rem 0 0.5rem 0;
+      padding: 1.5rem;
+      width: 90%;
+    }
+
+    /* --- responsive LIGHTBOX --- */
+    .lightbox {
+      padding-top: 2rem;
+    }
+
+    .lightbox img {
+      margin-top: 3rem;
+    }
+
+    .cerrar {
+      top: 1.5rem;
+      right: 1.5rem;
+      font-size: 2rem;
+    }
 
 }
 
@@ -153,6 +236,45 @@
     .hero-images {
         flex-direction: column;
         margin-bottom: 2rem;
+    }
+
+    /*responsive galeria*/
+    .galeria {
+      padding: 0.3rem;
+    }
+
+    .galeria-titulo {
+      font-size: 1.5rem;
+      margin: 1rem 0 0 0;
+    }
+
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0.5rem;
+    }
+    
+    .galeria-contenedor {      
+      margin: 0.3rem 0 0.3rem 0;
+      padding: 0.7rem;
+      width: 100%;
+    }
+
+    /* --- responsive LIGHTBOX --- */
+    .lightbox {
+      padding-top: 1rem;
+    }
+
+    .lightbox img {
+      margin-top: 4rem;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .cerrar {
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.7rem;
     }
 
 }
