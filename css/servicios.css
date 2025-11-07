@@ -146,10 +146,10 @@ li {
 
 /* animaciones */
 @keyframes efectotarjetas {
-  0% {background-color: #607a6b; rotate: 0deg;}
+  0% {background-color: #1B445B; rotate: 0deg;}
   25% {background-color: #469C6A; rotate: 2deg; scale:1.05;}
   50% {background-color: #469C6A; rotate: -2deg; scale:1.05;}
-  100% {background-color: #607a6b; rotate: 0deg;}
+  100% {background-color: #1B445B; rotate: 0deg;}
 
 }
 
