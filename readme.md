@@ -12,6 +12,7 @@ El sitio incluye cinco (05) páginas principales:
 
 ---
 
+<<<<<<< HEAD
 ## Instalación y configuración
 *(Sección pendiente de completar con instrucciones técnicas específicas)*
 
@@ -28,30 +29,28 @@ Guía sobre cómo utilizar el proyecto, con ejemplos si es posible.
 ```plaintext
 .
 ├── components
+=======
+4. Estructura del proyecto: 
+## 📁 Estructura del proyecto
+
+```plaintext
+sitioWebDeportivoSurf
+├── components
+│   ├── footer.html
+>>>>>>> main
 │   └── navbar.html
 ├── css
 │   ├── contacto.css
-│   └── index.css
+│   ├── galeria.css
+│   ├── home.css
+│   ├── index.css
+│   ├── nosotros.css
+│   └── servicios.css
 ├── img
-│   ├── cuatro fondo claro.png
-│   ├── cuatro fondo oscuro.png
-│   ├── dfasfas.png
-│   ├── dos claro.png
-│   ├── dos fondo ocuro.png
 │   ├── galeria
-│   │   ├── hombre-vestido-con-ropa-de-surfista-caminando-sobre-la-arena-desde-atras.jpg
-│   │   ├── joven-navega-por-las-olas-del-mar.jpg
-│   │   ├── jpeg
-│   │   ├── jpeg(1)
-│   │   ├── la-gente-surfeando-en-brasil(1).jpg
-│   │   ├── la-gente-surfeando-en-brasil.jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa(1).jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa.jpg
-│   │   ├── mujer-de-tiro-completo-en-manos.jpg
-│   │   ├── mujer-nadando-en-agua.jpg
-│   │   └── pareja-anonima-detras-de-la-tabla-de-surf-tomados-de-la-mano.jpg
-│   ├── logo 5_dev claro.png
+│   ├── home
 │   ├── logos
+<<<<<<< HEAD
 │   │   ├── cuatro fondo claro.png
 │   │   ├── cuatro fondo oscuro.png
 │   │   ├── dos claro.png
@@ -73,17 +72,31 @@ Guía sobre cómo utilizar el proyecto, con ejemplos si es posible.
 │   ├── tres fondo oscuro.png
 │   ├── una fondo claro.png
 │   └── una fondo oscuro.png
+=======
+│   └── sobreNosotros
+>>>>>>> main
 ├── index.html
 ├── pages
 │   ├── contacto.html
-│   └── example.html
+│   ├── example.html
+│   ├── galeria.html
+│   ├── home.html
+│   ├── nosotros.html
+│   └── servicios.html
 └── readme.md
 
+<<<<<<< HEAD
 ---
+=======
+
+5. Estado del proyecto: 
+El proyecto está en desarrollo.
+>>>>>>> main
 
 ## Estado del proyecto
 El proyecto está **en desarrollo**.
 
+<<<<<<< HEAD
 ---
 
 ## Licencia y autoría
@@ -102,3 +115,7 @@ Se incorporan imágenes de acceso libre tomadas de la web.
 
 ## Historial de cambios (Changelog)
 - Primera versión
+=======
+7. Historial de cambios (Changelog): 
+Primera versión.
+>>>>>>> main
