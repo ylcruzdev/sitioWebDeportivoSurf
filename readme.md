@@ -28,110 +28,36 @@ El sitio incluye cinco páginas principales:
 │   └── navbar.html
 ├── css
 │   ├── contacto.css
-│   ├── fivedevs.css
 │   ├── galeria.css
 │   ├── home.css
 │   ├── index.css
 │   ├── nosotros.css
 │   └── servicios.css
 ├── img
-│   ├── cuatro fondo claro.png
-│   ├── cuatro fondo oscuro.png
-│   ├── dfasfas.png
-│   ├── dos claro.png
-│   ├── dos fondo ocuro.png
-│   ├── Figma
-│   │   ├── Contacto.png
-│   │   ├── Galeria.png
-│   │   ├── General.png
-│   │   ├── Inicio.png
-│   │   ├── Nosotros.png
-│   │   └── Servicios.png
 │   ├── galeria
-│   │   ├── headerEscritorio.png
-│   │   ├── hombre surf.jpg
-│   │   ├── hombre-vestido-con-ropa-de-surfista-caminando-sobre-la-arena-desde-atras.jpg
-│   │   ├── joven-navega-por-las-olas-del-mar.jpg
-│   │   ├── jpeg(1).jpg
-│   │   ├── jpeg.jpg
-│   │   ├── la-gente-surfeando-en-brasil(1).jpg
-│   │   ├── la-gente-surfeando-en-brasil.jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa(1).jpg
-│   │   ├── mujer-con-tabla-de-surf-en-la-playa.jpg
-│   │   ├── mujer-de-tiro-completo-en-manos.jpg
-│   │   ├── mujer-nadando-en-agua.jpg
-│   │   └── pareja-anonima-detras-de-la-tabla-de-surf-tomados-de-la-mano.jpg
 │   ├── home
-│   │   ├── 6.png
-│   │   ├── 8.png
-│   │   ├── Control-V.png
-│   │   ├── hacer-surf-pais-vasco-bakio.jpg
-│   │   ├── logo .webp
-│   │   ├── sur10.jpg
-│   │   ├── sur1.jpg
-│   │   ├── sur2.jpg
-│   │   ├── sur3.jpg
-│   │   ├── sur4.jpg
-│   │   ├── sur7.jpeg
-│   │   ├── sur9.jpg
-│   │   ├── surf5.jpeg
-│   │   ├── surf6.png
-│   │   └── sur-inicial.jpg
-│   ├── logo5dev.png
-│   ├── logo.png
 │   ├── logos
-│   │   ├── cuatro fondo claro.png
-│   │   ├── cuatro fondo oscuro.png
-│   │   ├── dos claro.png
-│   │   ├── dos fondo ocuro.png
-│   │   ├── logo FiveDevs negro.svg
-│   │   ├── logo fondo claro.png
-│   │   ├── logo fondo oscuro.png
-│   │   ├── logo.svg
-│   │   ├── ola fondo  claro.png
-│   │   ├── ola fondo oscuro.png
-│   │   ├── tres fondo claro.png
-│   │   ├── tres fondo oscuro.png
-│   │   ├── una fondo claro.png
-│   │   └── una fondo oscuro.png
-│   ├── logo.svg
-│   ├── ola fondo  claro.png
-│   ├── ola fondo oscuro.png
-│   ├── servicios.jpg
-│   ├── sobreNosotros
-│   │   ├── chica surf.jpg
-│   │   ├── chico surf.jpeg
-│   │   ├── hombre surf.webp
-│   │   └── Logo olatulab.png
-│   ├── surf_bakio.JPEG
-│   ├── surf.png
-│   ├── tres fondo claro.png
-│   ├── tres fondo oscuro.png
-│   ├── una fondo claro.png
-│   └── una fondo oscuro.png
+│   └── sobreNosotros
 ├── index.html
 ├── pages
 │   ├── contacto.html
-│   ├── fivedevs.html
 │   ├── galeria.html
 │   ├── home.html
 │   ├── nosotros.html
 │   └── servicios.html
 └── readme.md
 
-10 directories, 86 files
 ```
 
 ## 4. Estado del proyecto: 
+El proyecto fue presentado
 
-## 5. El proyecto fue presentado
-
-## 6. Licencia y autoría
+## 5. Licencia y autoría
 
 No se ha hecho uso de licencias corporativas.  
 Se incorporan imágenes de acceso libre tomadas de la web.
 
-## 7. **Equipo de desarrollo:**
+## 6. **Equipo de desarrollo:**
 - Jorge Cereceda  https://github.com/jorgecerecedatrabajo-bit
 - Eder Vadillo  https://github.com/Edervad
 - Yoandres Lacruz  https://github.com/ylcruzdev
@@ -139,6 +65,5 @@ Se incorporan imágenes de acceso libre tomadas de la web.
 - Stiwar Troyano  https://github.com/troyanojoi-sour
 - Andrés Ocina *(Asesor educativo)*
 
-## 8. Historial de cambios (Changelog): 
+## 7. Historial de cambios (Changelog): 
 Primera versión 1.
----
