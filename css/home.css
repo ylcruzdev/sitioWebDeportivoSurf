@@ -84,7 +84,7 @@
     font-size: 4.5rem;
     font-weight: 700;
     margin-bottom: 2m;
-    color: var(--primary); /* Asume que tienes una variable --dark-text */
+    color: var(--primary);
 }
 
 .title-olatu-lab .lab {
