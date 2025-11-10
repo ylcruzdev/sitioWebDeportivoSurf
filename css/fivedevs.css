@@ -1,0 +1,43 @@
+.presentacion {
+    background-color: #ADBAC0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.logo5devs{
+     width:300px;
+    height: 300px;
+    margin: 2%;
+}
+
+.decoracion {
+    border-style: solid;
+    border-color: coral;
+    border-radius: 0.5rem;
+    padding: 5%;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p { 
+    font-size: 1.5rem;
+    color: #607a6b;
+}
+
+li{
+    font-size: 1.5rem;
+    color: #607a6b;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .presentacion{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
